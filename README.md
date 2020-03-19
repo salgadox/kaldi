@@ -7,15 +7,15 @@ Kaldi official github: https://github.com/kaldi-asr/kaldi
 
 
 ## Getting Started
-These instructions will help install kaldi on a conda environement. 
+These instructions will help install kaldi on a conda environment. 
 Make sure you've got miniconda installed (or conda if you've got he space). 
 
-First you must clone kaldi's repertory:
+First, you must clone kaldi's repertory:
 ```
 git clone https://github.com/kaldi-asr/kaldi.git
 ```
 
- and create a conda environement: 
+ and create a conda environment: 
 
 ```
 conda create -n kaldi -c conda-forge python=3.7 
@@ -39,7 +39,7 @@ cd tools/
 ./extras/check_dependencies.sh 
 ```
 
-In order to not install anything directly on the system use conda to install the dependencies inside your environement
+In order to not install anything directly on the system use conda to install the dependencies inside your environment
 
 ```
 conda install -c conda-forge automake autoconf sox
@@ -49,24 +49,25 @@ Two dependencies wont be avaiable on conda.
 1) subversion 
 2) intel mkl 
 
-For subversion ask you administration to install it or use sudo apt install subversion
+For subversion ask you administration to install it or use sudo apt install subversion (if you have the rights)
+
 For inter mkl : 
 ```
 conda install -c conda-forge openblas
 ```
 
-check that every dependency is already installed and if so do 'make'
+Check that every dependency is already installed and if so do 'make'
 ```
 ./extras/check_dependencies.sh 
 make
 ```
 ### Step 2 
 
-Change directory to src 
+Change directory to src  
 ```
 cd ../src
 ```
-and following the  [step2 instructions](https://github.com/kaldi-asr/kaldi/blob/master/src/INSTALL)
+and following the [step2 instructions](https://github.com/kaldi-asr/kaldi/blob/master/src/INSTALL)
 do
 
 ```
