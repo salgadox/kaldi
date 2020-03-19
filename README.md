@@ -2,8 +2,8 @@
 
 
 ## Kaldi information: 
-Kaldi official page: http://kaldi-asr.org/
-Kaldi official github: https://github.com/kaldi-asr/kaldi
+- Kaldi official page: http://kaldi-asr.org/
+- Kaldi official github: https://github.com/kaldi-asr/kaldi
 
 
 ## Getting Started
