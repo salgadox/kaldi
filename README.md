@@ -75,3 +75,4 @@ do
 make -j clean depend; make -j 8 
 ```
 
+Finally you can add Kaldi to your $PATH 
