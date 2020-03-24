@@ -24,7 +24,7 @@ CMakeLists.txt  docker   INSTALL  README.md  src      windows
 cd kaldi/egs 
 mkdir corpus
 ```
--Choose your template, for example: wsj. 
+- Choose your template, for example: wsj. 
 
 - Copy of wsjs' path.sh script and make sure that the KALDI-PATH root is correct 
 ```
