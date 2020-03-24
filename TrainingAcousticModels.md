@@ -7,7 +7,7 @@
 Please refr to kaldi website for further information. 
 
 ### how to install kaldi? 
-- refere to the README.md  
+- refere to the kaldi-installation.md   
 
 ### Understanding Kaldi's directory structure: 
 Top-level directories : cmake           COPYING  egs      misc       scripts  tools
@@ -40,5 +40,14 @@ ln -s ../../src .
 ln -s ../wsj/s5/steps .
 ln -s ../wsj/s5/utils .
 ```
-- Create 
+- Create the following directories: 
+```
+mkdir exp conf data
+mkdir data/train data/lang data/local
+mkdir data/local/lang
+```
+- data/train File: 
 
+will contain informartion about the audio files
+
+  * text : transcript of the corpus 
