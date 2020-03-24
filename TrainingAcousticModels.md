@@ -46,8 +46,8 @@ mkdir exp conf data
 mkdir data/train data/lang data/local
 mkdir data/local/lang
 ```
-- data/train File: 
+#### data/train File: 
 
 will contain informartion about the audio files
 
-  * text : transcript of the corpus 
+  - text : transcript of the corpus 
