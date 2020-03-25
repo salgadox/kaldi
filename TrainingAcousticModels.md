@@ -24,8 +24,7 @@ CMakeLists.txt  docker   INSTALL  README.md  src      windows
 cd kaldi/egs 
 mkdir corpus
 ```
-- Choose your template, for example: wsj. 
-
+<!--- Choose your template, for example: wsj. 
 - Copy of wsjs' path.sh script and make sure that the KALDI-PATH root is correct 
 ```
 cd corpus
@@ -39,7 +38,8 @@ ln -s ../../src .
 ```
 ln -s ../wsj/s5/steps .
 ln -s ../wsj/s5/utils .
-```
+```-->
+
 - Create the following directories: 
 ```
 mkdir exp conf data
@@ -50,4 +50,5 @@ mkdir data/local/lang
 
 will contain informartion about the audio files
 
-  - text : transcript of the corpus 
+  - text: transcript of the corpus
+  -segment:  
