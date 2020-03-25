@@ -34,8 +34,8 @@ mkdir data/local/lang
 
 will contain informartion about the audio files
 
-  - text: transcript of the corpus, utterance by utterance (id_utterance WORD1 WORD2 ... WORDN)
+  - **text**: transcript of the corpus, following the formant: *id_utterance WORD1 WORD2 ... WORDN*
     - Example text file:
-      AA-test-F-S-AAS820006-00000 la formation professionnelle est un enjeu majeur tant du point de vue de nos performances économiques que du point de vue des idéaux de justice sociale
+      *AA-test-F-S-AAS820006-00000 la formation professionnelle est un enjeu majeur tant du point de vue de nos performances économiques que du point de vue des idéaux de justice sociale*
  
- -segment:  
+ -**segment**:  
