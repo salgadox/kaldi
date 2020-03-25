@@ -35,7 +35,16 @@ mkdir data/local/lang
 will contain informartion about the audio files
 
   - **text**: transcript of the corpus, following the formant: *id_utterance WORD1 WORD2 ... WORDN*
-    - Example text file:
+    - Example of a text file:
       *AA-test-F-S-AAS820006-00000 la formation professionnelle est un enjeu majeur tant du point de vue de nos performances économiques que du point de vue des idéaux de justice sociale*
+ - **segment**: contains the start and end time for each utterance following the formant: *id_utterance id_file start_time end_time*
+    - Example of a segment file: 
+    *AA-test-F-S-AAS820006-00000 AAS820006-test 0 8.6399375* 
+
+#### text 
  
- -**segment**:  
+ - create a list of words in the corpus  
+ ```
+cut -d ' ' -f 2- text  | sed "s/' ' /\n/g" | sort -u > words.txt 
+ ```
+<!-- LEXICON: modify so it has <oov><oov> (out of vocabulary)-->
