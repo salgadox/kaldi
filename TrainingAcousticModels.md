@@ -24,22 +24,6 @@ CMakeLists.txt  docker   INSTALL  README.md  src      windows
 cd kaldi/egs 
 mkdir corpus
 ```
-<!--- Choose your template, for example: wsj. 
-- Copy of wsjs' path.sh script and make sure that the KALDI-PATH root is correct 
-```
-cd corpus
-cp .../wsj/s5/path.sh 
-```
-- Make a link to src 
-```
-ln -s ../../src . 
-```
-- Make soft links to the following directories: steps, s5/utils and 
-```
-ln -s ../wsj/s5/steps .
-ln -s ../wsj/s5/utils .
-```-->
-
 - Create the following directories: 
 ```
 mkdir exp conf data
@@ -50,5 +34,8 @@ mkdir data/local/lang
 
 will contain informartion about the audio files
 
-  - text: transcript of the corpus
-  -segment:  
+  - text: transcript of the corpus, utterance by utterance (id_utterance WORD1 WORD2 ... WORDN)
+    - Example text file:
+      AA-test-F-S-AAS820006-00000 la formation professionnelle est un enjeu majeur tant du point de vue de nos performances économiques que du point de vue des idéaux de justice sociale
+ 
+ -segment:  
